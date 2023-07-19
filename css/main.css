@@ -1,0 +1,47 @@
+@charset "UTF-8";
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.wrapper {
+  margin: auto;
+  width: 600px;
+  position: relative;
+  background-color: #ccc;
+  text-align: center;
+}
+#container {
+  position: absolute;
+}
+#container img {
+  width: 100%;
+  float: left;
+}
+button {
+  position: absolute;
+  color: #333;
+  height: 100%;
+  top: 0;
+  border: none;
+  padding: 20px;
+  background-color: transparent;
+  font-weight: 800;
+  font-size: 24px;
+  opacity: 0.5;
+}
+#prev {
+  left: 0;
+}
+#next {
+  right: 0;
+}
+button:hover {
+  background-color: #222;
+  color: #fff;
+  cursor: pointer;
+}
+button:focus{
+    outline: 0;
+}
